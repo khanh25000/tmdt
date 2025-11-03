@@ -19,16 +19,20 @@
             <nav>
                 <ul>
                     <li><a href="client.php">Trang chủ</a></li>
-                    <li><a href="" class="active">Khóa học</a></li>
-                    <li><a href="lienhe.php">Liên hệ</a></li>
-                    <li><a href="shop.php">Giỏ hàng</a></li>
+                    <li><a href="khoahoc.php">Khóa học</a></li>
+                    <li><a href="lienhe.php">Liên Hệ</a></li>
                 </ul>
             </nav>
             
             <div class="nav-right">
-                <!-- Liên kết đến giỏ hàng -->
+                <!-- Liên kết đến giỏ hàng (cần tạo file cart.php) -->
                 <a href="shop.php" class="cart-btn">
                     <i class="fas fa-shopping-cart"></i> Giỏ hàng
+                </a>
+            
+            <div class="nav-right">
+                <a href="?logout=true" class="logout-btn">
+                    <i class="fas fa-sign-out-alt"></i> Đăng xuất
                 </a>
             </div>
         </div>
