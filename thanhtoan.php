@@ -157,7 +157,6 @@ foreach ($_SESSION['cart'] as $item) {
                 <ul>
                     <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="khoahoc.php">Khóa học</a></li>
-                    <li><a href="tt.php">Truyền thông</a></li>
                     <li><a href="shop.php">Giỏ hàng</a></li>
                 </ul>
             </nav>
@@ -336,12 +335,7 @@ foreach ($_SESSION['cart'] as $item) {
             alert('Thanh toán thành công! Cảm ơn bạn đã mua khóa học.');
             
             // Chuyển hướng về trang chủ (trong thực tế sẽ xử lý thanh toán thật)
-            window.location.href = 'index.php';
-            
-            // Ở đây bạn có thể gửi dữ liệu đến server để xử lý thanh toán thực tế
-            // const formData = new FormData(form);
-            // formData.append('payment_method', selectedMethod);
-            // ... gửi AJAX request đến server
+            window.location.href = 'khoahoc.php';
         }
     </script>
 </body>

@@ -573,9 +573,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <nav>
                 <ul>
-                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="client.php">Trang chủ</a></li>
                     <li><a href="khoahoc.php">Khóa học</a></li>
-                    <li><a href="tt.php">Liên Hệ</a></li>
+                    <li><a href="lienhe.php">Liên Hệ</a></li>
                 </ul>
             </nav>
             

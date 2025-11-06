@@ -669,10 +669,9 @@ if (isset($_POST['checkout'])) {
             
             <nav>
                 <ul>
-                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="client.php">Trang chủ</a></li>
                     <li><a href="khoahoc.php">Khóa học</a></li>
                     <li><a href="lienhe.php">Liên hệ</a></li>
-                    <li><a href="shop.php" class="active">Giỏ hàng</a></li>
                 </ul>
             </nav>
             
