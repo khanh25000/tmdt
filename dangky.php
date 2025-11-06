@@ -308,17 +308,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="success"><?php echo $success; ?></div>
             <?php endif; ?>
             <form action="" method="POST">
-                <div class="input-group">
-                    <input type="text" name="phone" placeholder="Số điện thoại" required>
-                    <i class="fas fa-phone"></i>
+                                <div class="input-group">
+                    <input type="text" name="username" placeholder="Tên đăng nhập" required>
+                    <i class="fas fa-user"></i>
                 </div>
-                <div class="input-group">
+                                <div class="input-group">
                     <input type="email" name="email" placeholder="Email" required>
                     <i class="fas fa-envelope"></i>
                 </div>
                 <div class="input-group">
-                    <input type="text" name="username" placeholder="Tên đăng nhập" required>
-                    <i class="fas fa-user"></i>
+                    <input type="text" name="phone" placeholder="Số điện thoại" required>
+                    <i class="fas fa-phone"></i>
                 </div>
                 <div class="input-group">
                     <input type="password" name="password" placeholder="Mật khẩu" required>
